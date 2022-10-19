@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Haoura;
+    src: url(/fonts/web/Hauora-Regular.woff);
+    /* font-weight: bold; */
+  }
+*{
+    font-family: Haoura;
+}
+h1{
+    color: #005400;
+    font-weight: 800 !important;
+    font-size: 55px;
+    line-height: 80px;
+}
+h2{
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 75px;
+}
+h5{
+    font-weight: 700;
+    font-size: 28px;
+    color: #005400;
+    line-height: 42px;
+}
+h6{
+    font-weight: 700;
+    color: #005400;
+    font-size: 21px;
+    line-height: 42px;
+}
+#btn1{
+    padding: 10px 70px; 
+    background-color: white; 
+    border: #005400 solid 1px; 
+    color: #005400;
+}
+#btn2{
+    background-color: #005400; 
+    border: none;
+    color:white; 
+    padding: 10px 70px;
+}
+#hero, .nav-menu{
+    background-color: #E6EEE6;
+}
+
+/* #third-section p{
+    color: #005400;
+    font-size: 18px;
+    font-weight: 600;
+} */
+.testimonial{
+    padding: 30px;
+    border: #005400 solid 1px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+.testimonial p{
+    line-height: 50px;
+}
+#next{
+    border: #005400 solid 1px;
+
+}
+#mature p{
+    color: red;
+    font-size: 16px;
+}
+#reviews h5{
+    color: #005400;
+}
+#reviews h6{
+    color: #005400;
+    font-size: 18px;
+    font-weight: 400;
+}
+footer{
+    list-style: none;
+}

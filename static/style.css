@@ -1,0 +1,21 @@
+@font-face {
+    font-family: Haoura;
+    src: url(/fonts/web/Hauora-Regular.woff);
+    /* font-weight: bold; */
+  }
+*{
+    font-family: Haoura;
+}
+footer{
+    list-style: none;
+    background-color: #E6EEE6;
+}
+#btn2{
+    background-color: #005400; 
+    border: none;
+    color:white; 
+    padding: 10px 70px;
+}
+/* #exampleFormControlInput1{
+    margin: 0px 50px;
+} */

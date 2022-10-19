@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+
+        <!--Bootstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script> $(document).ready(function() { //Preloader
+     preloaderFadeOutTime = 20; function hidePreloader() { var preloader = $('.spinner-wrapper'); preloader.fadeOut(preloaderFadeOutTime); } hidePreloader() }); </script>
+     <script>
+       var myVar;
+        function myFunction(){
+            myVar = setTimeout(showPage, 3000);
+        }
+        function showPage(){
+            document.getElementById("spin").style.display = "none";
+            document.getElementById("show").style.display = "block";
+        }
+     </script>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body onload="myFunction()" id="show">
+  <!--CSS Spinner
+<div class="spinner-wrapper" id="spin">
+   <div class="spinner spinner1"></div>
+   <div class="spinner spinner2"></div>
+   <div class="spinner spinner3"></div>
+   <div class="spinner spinner4"></div>
+   <div class="spinner spinner5"></div>
+   <div class="spinner spinner6"></div>
+   <div class="spinner spinner7"></div>
+   <div class="spinner spinner8"></div>
+   <div class="spinner spinner9"></div>
+</div>-->
+
+
+<div class="sk-cube-grid" id="spin">
+  <div class="sk-cube sk-cube1"></div>
+  <div class="sk-cube sk-cube2"></div>
+  <div class="sk-cube sk-cube3"></div>
+  <div class="sk-cube sk-cube4"></div>
+  <div class="sk-cube sk-cube5"></div>
+  <div class="sk-cube sk-cube6"></div>
+  <div class="sk-cube sk-cube7"></div>
+  <div class="sk-cube sk-cube8"></div>
+  <div class="sk-cube sk-cube9"></div>
+</div>
+    <!-- Header -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+              <a class="navbar-brand me-5" href="#">
+                <img src="/images/landing-page/logo.png" alt="Farm Kart" width="70px" height="70px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-3 gap-2 text-dark">
+                  <li class="nav-item">
+                    <a class="nav-link active" style="color: #005400;" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Our Services</a>
+                  </li>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Demo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact Us</a>
+                  </li>
+                </ul>
+    
+                <div class="d-flex gap-4">
+                    <div class="d-flex align-items-center gap-2">
+                        <img src="/images/product-details/James.png" alt="" width="40px" height="40px">
+                        <p class="my-auto">Hi, James</p>
+                        <img src="/images/product-details/arrow-down.png" alt="" width="20px" height="20px" class="my-auto">
+                    </div>
+    
+                    <div class="d-flex align-items-center gap-2">
+                        <img src="/images/product-details/akar-icons_cart.png" alt="" width="30px" height="30px">
+                        <p class="my-auto">Cart</p>
+                    </div>   
+                </div>
+
+              </div>
+            </div>
+    </nav>
+
+    <!-- Main body -->
+    <div class="container">
+        <div class="row my-5">
+            <div class="d-flex justify-content-end">
+                <img src="/images/checkout/secure.png" alt="" width="20px" height="20px">
+                <p>Secured Payment</p>
+            </div>
+
+            <div class="col-8">
+                <p>CHECKOUT</p>
+                <!-- First card in the first column -->
+                <div class="card">
+                    <div class="card-header">
+                        <div class="row">
+                            <div class="col-8 d-flex align-items-center">
+                                <img src="/images/checkout/component.png" alt="" width="22px" height="22px" class="me-3">
+                                <h6>1. ADDRESS DETAILS</h6> 
+                            </div>
+                            <div class="col-4">
+                                <h6>CHANGE</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card-body ms-5">
+                        <p class="card-subtitle"><strong>James Abel</strong></p>
+                        <p class="card-text">Road 20F, Parakin, Ile-Ife, Osun State, Nigeria<br>+2348052340099</p>
+                    </div>
+                </div>
+
+                <!-- Second card in thesame column -->
+                <div class="card my-4">
+                    <div class="card-header">
+                        <div class="d-flex align-items-center">
+                            <img src="/images/checkout/Component 1.png" alt="" width="22px" height="22px" class="me-3">
+                            <h6>2. DELIVERY METHOD</h6> 
+                        </div>
+                    </div>
+
+                    <div class="card-body mx-4">
+                        <p class="card-subtitle my-2"><strong>Delivered between Wednesday 21 September and Friday 23 September for N2,000</strong></p>
+                        <div class=" card-text border p-2 my-4">
+                            <ul>
+                                <li>Free delivery within the same town.</li><br>
+                                <li>Payment of delivery outside the current location and varies per distance.</li><br>
+                                <li>Large items may arrive 2 business days later than fewer products.</li><br>
+                                <li>Ensure your address is correct as our Delivery Agents would only deliver to
+                                    stated address.</li><br>
+                                <li>Products may arrive before delivery date. Payment must be made when paying
+                                    for products as all goods are subject to inspection by FarmKart before delivery.</li><br>
+                                <li>On delivery day, delivery time may vary due to possible eventualities.</li><br>
+                                <li>You may decide to visit our delivery station for pick up when it arrives to your
+                                    destination.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- A sub-card within the second card in thesame column. I hope you understand. -->
+                    <div class="card m-5">
+                        <div class="card-header">
+                            <h6>SHIPMENT DETAILS</h6> 
+                        </div>
+    
+                        <div class="card-body mx-4">
+                            <p class="card-subtitle my-2">Shipment 1 of 1</p>
+                            <p>20x Mature West African Dwarf Breed Goats </p>
+                            <p>Delivered between Wednesday 21 Septmenber and Friday 23 September</p>
+                        </div>
+                    </div>
+
+                    <!-- Total costs and all -->
+                    <div class="d-flex mx-5 justify-content-between">
+                        <p><strong>Subtotal</strong></p>
+                        <p><strong>N600,000</strong></p>
+                    </div>
+                    <div class="d-flex justify-content-between border-bottom pb-3">
+                        <p class="mx-5"><strong>Delivery Fee</strong></p>
+                        <p class="mx-5"><strong>N2,000</strong></p>
+                    </div>
+                    <div class="d-flex  mx-5 mb-5 text-danger justify-content-between">
+                        <p><strong>Total</strong></p>
+                        <p><strong>N602,000</strong></p>
+                    </div>
+
+                    <button class="d-flex mx-5 justify-content-center mb-5 rounded" id="btn2">Confirm Order</button>
+                </div>
+
+
+
+            </div>
+
+            <!-- Second column -->
+            <div class="col-4">
+                <!-- The order summary -->
+                <p>ORDER SUMMARY</p>
+                <div class="card">
+                    <!-- Card header -->
+                    <div class="card-header">
+                        <h6>YOUR ORDER (1 item)</h6> 
+                    </div>
+
+                    <!-- The body of the card -->
+                    <div class="card-body">
+                        <div class="d-flex gap-3">
+                            <img src="/images/product-details/Rectangle 250.png" alt="" width="150px" height="150px">
+                            <div>
+                                <p>Mature West African Dwarf Breed Goats</p>
+                                <p class="text-danger">N600,000</p>
+                                <p>Qty: 20</p>
+                            </div>
+                        </div>
+
+                        <!-- Total costs and all -->
+                        <div class="border-top border-bottom my-3">
+                            <div class="d-flex justify-content-between">
+                                <p><strong>Subtotal</strong></p>
+                                <p><strong>N600,000</strong></p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p><strong>Delivery Fee</strong></p>
+                                <p><strong>N2,000</strong></p>
+                            </div>   
+                        </div>
+
+                        <!-- Total total -->
+                        <div class="d-flex text-danger justify-content-between pb-4">
+                            <p><strong>Total</strong></p>
+                            <p><strong>N602,000</strong></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-center">
+                    <button class="rounded my-4" id="btn1" style="padding: 10px 130px;"><strong>EDIT CART</strong></button>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h6>NEED HELP?</h6>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-title py-3">Contact our support to assist you.</p>
+                        <button class="btn d-flex" id="btn1" style="padding: 10px 130px;">Support</button>
+                    </div>
+                </div>
+            </div>
+
+        </div> 
+    </div>
+
+        <!-- Footer-->
+        <footer id="hero" class="py-4">
+            <div class="container text-center">
+              <div class="row justify-content-evenly py-5 border-bottom">
+          
+                <!-- logo -->
+                <div class="col text-start">
+                  <a class="navbar-brand" href="#">
+                    <img src="/images/landing-page/logo.png" alt="Farm Kart" width="70px" height="70px">
+                  </a>   
+                </div>
+          
+                <!-- quick links -->
+                <div class="col text-start">
+                    <li class="nav-item fw-bold">
+                      <a class="nav-link active" href="#">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">About FarmKart</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Terms of Use</a>
+                    </li>
+                </div>
+          
+                <!-- quick links -->
+                <div class="col text-start">
+                  <li class="nav-item fw-bold">
+                    <a class="nav-link active" href="#">RESOURCES</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Our Blog</a>
+                  </li>
+                </div>
+          
+                <!-- quick links -->
+                <div class="col text-start">
+                  <li class="nav-item fw-bold">
+                    <a class="nav-link active" href="#">SUPPORT</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="#">FAQ</a>
+                  </li>
+                </div>
+          
+                <!-- Subcribe form -->
+                <div class="col-5 text-start">
+                      <label for="newsletter" class="fw-bold" >NEWSLETTER</label>
+                      <div class="d-flex gap-2">
+                        <input type="email" id="newsletter" value="abeljames@outlook.com">
+                        <button class="btn rounded" style="background-color: #005400; color: white;">SUBSCRIBE</button> 
+                      </div>
+                </div>
+          
+              </div>
+          
+              <div class="d-flex justify-content-between gap-3 my-3">
+                <p class="py-1">© 2022 All rights reserved. <span style="color: #005400; font-size: 14px;">FarmKart</span></p>
+          
+                <div>
+                  <img src="/images/landing-page/facebook 1.png" alt="Facebook" width="40px" height="40px">
+                  <img src="/images/landing-page/linkedin 1.png" alt="LinkedIn" width="40px" height="40px">
+                  <img src="/images/landing-page/twitter 1.png" alt="Twitter" width="40px" height="40px">
+                  <img src="/images/landing-page/Mail.png" alt="Mail" width="40px" height="40px"> 
+                </div>
+          
+              </div>
+          
+            </div>
+          </footer>
+          
+  
+
+    
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>

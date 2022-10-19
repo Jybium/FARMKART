@@ -1,0 +1,104 @@
+.form{
+    margin: 3%;
+}
+.form input, .form select{
+    height: 40px;
+    width: 100%;
+    padding-left: 10px;
+    outline: none;
+    margin-top: -3%;
+}
+.head, #c h5, #d h5{
+    text-align: center;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 20%;
+    margin-bottom: 3%;
+}
+#c h5, #d h5{
+    margin-top: 5px;
+}
+#a{
+    width: 50%;
+}
+#b{
+    width: 50%;
+}
+#c, #d{
+    width: 100%;
+    height: auto;
+}
+form{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 100%;
+}
+.photo{
+    margin-top: 8%;    
+}
+.photo p{
+    margin-top: -1%;
+}
+.uploads{
+    background-color: black;
+    width: 15%;
+    padding: 4%;
+    position: relative;
+}
+.upload{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 25% 10%;
+    background-image: url('/FARMKART IMAGES/FARMKART PICTURES/green_plus-removebg-preview.png');
+    background-position: center;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.upload input{
+    width: 100%;
+    padding: 10% 10%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    top: -8px;
+    opacity: 0;
+}
+.uploads h4{
+    margin-top: 20px;
+}
+.p{
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    margin-top: 4%;
+}
+button{
+    padding: 1% 19% 1% 19%;
+    border: none;
+    border-radius: 5px;
+    background: #005900;
+    color: #C6C5C4;
+}
+.tip{
+    background: #025FB5;
+    padding: 1%;
+    text-align: center;
+    margin: 8% 5% 5% 5%;
+}
+.tip p{
+    padding: 1% 14% 1% 14%;
+    margin: -0.4%;
+    color: #E8E8E7;
+}
+.tip h3{
+    padding: 1% 0% 0.5% 0%;
+    margin: -0.4%;
+    color: #E8E8E7;
+}

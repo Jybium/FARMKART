@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    width: 100%;
+}
+main{
+    width: 90%;
+    margin: auto;
+    margin-top: 10%;
+}
+.main h1{
+    text-align: center;
+    font-weight: 900;
+    font-size: 18px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 4%;
+}
+.form1, .form2{
+    width: 100%;
+}
+.form p{
+    margin-bottom: 1%;
+}
+.form1 select, .form2 select{
+    width: 100%;
+    padding: 3%;
+}
+.words{
+    margin-top: 2%;
+    line-height: 30px;
+}
+.image{
+    max-height: fit-content;
+    display: flex;
+    gap: 5%;
+    margin: 2% 0%;
+}
+.import{
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
+.import input{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    background-image: url('/FARMKART IMAGES/FARMKART PICTURES/green_plus-removebg-preview.png');
+    background-position: center;
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    content-visibility: hidden;
+}
+.imports img{
+    width: 200px;
+    height: 200px;
+    max-width: fit-content;
+    object-fit: cover;
+}
+.note{
+    line-height: 25px;
+}
+.bt{
+    justify-content: center;
+    display: flex;
+    margin: 10% 0%;
+}
+.button{
+    padding: 2% 15%;
+    background: #005900;
+    color: #c6c5c4;
+    border-radius: 2%;
+    border: none;
+}
+.button a{
+    color: #c6c5c4;
+    text-decoration: none;
+}
+.fill{
+    margin-top: 6%;
+    width: 100%;
+}

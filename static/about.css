@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.top{
+    background-image: url('/FARMKART IMAGES/FARMKART PICTURES/for about.jpg');
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+   padding: 15% 0%;
+    margin: 3% 0%;
+    
+}
+.top h2, .top p{
+    animation: top ease-in 4s;
+    color: white;
+    line-height: 20px;
+}
+.top h2{
+    font-weight: 800;
+    margin-bottom: 1%;
+    font-size: 25px;
+}
+.top p{
+    padding: 0% 40%;
+    font-weight: 500;
+}
+@keyframes top{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.us{
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    display: grid;
+    justify-content: center;
+}
+.team img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 4%;
+    width: 70%;
+}
+.team>div{
+    flex: 20%;
+    margin: 2% 0%;
+    animation: team ease-in 5s;
+}
+@keyframes team {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.meet>p{
+    padding: 0% 15%;
+}
+.meet{
+    margin: 5% 0%;
+}
+.mission{
+    margin: 3% 0% 0% 0%;
+    padding: 0% 13%;
+}
+.mission>h2, .meet>h2{
+    margin-bottom: 2%;
+}
+.us h2{
+    color: #005900;
+    font-weight: 900;
+    font-size: 20px;
+}

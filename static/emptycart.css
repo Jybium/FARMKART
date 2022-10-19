@@ -1,0 +1,53 @@
+.container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 9%;
+    box-sizing: border-box;
+}
+.contents{
+    text-align: center; 
+    display: grid;
+    flex-direction: column;
+    justify-content: center
+}
+.contents img{
+    width: 60%;
+    margin-bottom:4%;
+    box-shadow: (rgba(0,0, 0, 0.2));
+}
+button{
+    width: 100%;
+    background-color: #005900;
+    padding: 3% 3% 3% 3%;
+    border: 0;
+    outline: none;
+    margin-top: 20%;
+    margin-bottom: 30%;
+}
+a{
+    text-decoration: none;
+    color: #C6C5C4;
+}
+a button{
+    color: #C6C5C4;
+}
+.cart-text{
+    line-height: 32px;
+    margin-top: 4%;
+}
+.counter{
+    padding: 20px 25px;
+    border-radius: 100%;
+    background-color: #005900;
+    position: absolute;
+    top: 453px;
+    right: 535px;
+}
+.counter div{
+    color: #c6c5c4;
+    display: flex;
+    margin-top: -2%;
+    justify-content: center;
+    text-align: center;
+}

@@ -1,0 +1,205 @@
+.eye-icon, .icon{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    padding: 5px;
+}
+*{
+    margin: 0;
+}
+.top{
+    justify-content: center;
+    text-align: center;
+}
+.top img{
+    width: 20%;
+    transition: all 4s ease;
+}
+.top-word{
+    line-height: 30px;
+}
+main{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin-top: 3%;
+}
+body{
+    transition: all .4s ease;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+}
+.form{
+    width: 50%;
+    margin: 15% 0% 5% 0%;
+}
+form{
+    width: 100%;
+    box-sizing: border-box;
+}
+.form a{
+    text-decoration: none;
+    color: #005900;
+}
+form input{
+    width: 100%;
+    padding: 2%;
+    outline-style: none;
+    border: 1px solid #ccc;
+    border-bottom-width: 2px;
+    transition: all 6s ease;
+}
+form input:active, a{
+    border-color: #005900;
+    transition: all .4s ease;
+}
+.input{
+    margin-bottom: 6%;
+}
+.button{
+    margin: 10%  0% 2% 0%;
+}
+#btn{
+    margin-bottom: 3%;
+    margin-top: 9%;
+}
+.input button{
+    width: 105%;
+    padding: 2%;
+    border: none;
+    background-color: #005900;
+    color: #c6c5c4;
+}
+.input button a{
+    color: #c6c5c4;
+}
+.signin{
+    width: 50%;
+    justify-content: flex-end;
+    display: flex;
+    margin: 6% 0px;
+    transition: all 6s ease-in-out;
+}
+.signin img{
+    width: 90%;
+    
+}
+
+
+
+
+/* This code is for the footer*/
+.foot{
+    display: flex;
+    justify-content: space-between;
+    gap: 4%;
+    padding: 2% 4% 5% 4%;
+}
+.a1{
+    width: 15%;
+}
+.b1{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    gap: 0%;
+    margin: auto;
+}
+.foot ul{
+    list-style: none;
+}
+.foot a{
+    text-decoration: none;
+    margin: 0;
+    color: black;
+}
+.foot li{
+    margin-bottom: 10px;
+}
+.last{
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 4% 1% 4%;
+}
+hr{
+    color: black;
+    margin: 0% 4%;
+}
+.last img{
+    width: 35px;
+}
+.socials span{
+    padding-left: 10px;
+}
+.mail img{
+    width: 32px;
+}
+.d .input{
+    padding: 13px;
+    width: 60%;
+    outline: none;
+}
+.d .btn1{
+    padding: 15px 20px;   
+    background: #005900;
+    color: #c6c5c4;
+    border-radius: 5%;
+    margin-left: 2px;
+    border: none;
+}
+.d{
+    width: 40%;
+    padding-left: 5%;
+}
+.last a{
+    text-decoration: none;
+    color: #005900;
+}
+footer{
+    background-color: #c6c5c4;
+    width: 100%;
+}
+
+<!--This codes for the popups
+.popup{
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    visibility: hidden;
+    width: 50%;
+    transform: translate(-50%, -50% scale(0.1));
+    top: 0%;
+    left: 50%;
+}
+.open-popup{
+    visibility: visible;
+    top: visible;
+    transform: translate(-50%, -50% scale(1));
+}
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto;
+}
+#message{
+    display: none;
+    position: relative;
+    padding: 20px;
+}
+.valid{
+    color: green;
+}
+.invalid{
+    color: red;
+}
+.invalid:before{
+    position: relative;
+    left: -35px;
+    content: "&#10006;";
+}

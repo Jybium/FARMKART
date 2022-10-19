@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.main{
+    margin: auto;
+    width: 90%;
+    justify-content: center;
+}
+.form{
+    margin: 5% 0% 3% 0%;
+}
+.back{
+    display: flex;
+    margin: 10% 2% 5% 2%;
+    justify-content: space-between;
+}
+.icon {
+    display: flex;
+    gap: 7%;
+}
+.icon a{
+    text-decoration: none;
+    color: #005900;font-weight: 700;font-size: 20px;
+}
+
+/*This codes is for the input section*/
+.inputs .formatic{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content{
+    flex: 50%;
+    width: 100%;
+    padding: 15px;
+}
+.content p label{
+    margin-bottom: 4%;
+}
+.content input, select, textarea{
+    width: 100%;
+    padding: 2% 2% 2% 2%;
+    margin-top: .5%;
+}
+.content input, select, textarea:active{
+    outline: none;
+}
+#describe input{
+    padding: 2% 1% 14% 1%;
+}
+#check input{
+    width: 2%;
+}
+
+/*This codes for the buttons*/
+.submit{
+    justify-content: center;
+    display: grid;
+    margin-bottom: 10%;
+}
+.submit button{
+    padding: 5% 3%;
+    background-color: #005900;
+    border: none;
+    margin-bottom: 2.5%;
+}
+.submit button a{
+    text-decoration: none;
+    color: #c6c5c4;
+}
+.submit a{
+    text-decoration: none;
+    color: #005900;
+}

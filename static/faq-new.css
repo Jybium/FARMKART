@@ -1,0 +1,265 @@
+
+@font-face {
+    font-family: myWebFonts;
+    src: url(Hauora-Bold.tff),
+        url(Hauora-ExtraBold.tff),
+        url(Hauora-ExtraLight.tff),
+        url(Hauora-Light.tff)
+        url(Hauora-Medium),
+        url(Hauora-Regular),
+        url(Hauora-SemiBold);
+  }
+
+body {
+    margin: 0;
+    line-height: normal;
+    font-family: myWebFonts;
+  }
+  
+  .marketplace-div {
+    position: relative;
+    line-height: 150%;
+    display: inline-block;
+    margin-left: 10px;
+    color: #696763;
+    font-size: 22px;
+
+
+
+  }
+  
+  .marketplace-div {
+    font-weight: 500;
+  }
+  
+  
+    
+  
+  .div {
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    line-height: 150%;
+    font-weight: 500;
+    display: inline-block;
+  }
+ 
+  
+ 
+  .frequently-asked-questions {
+    position: absolute;
+    top: 140px;
+    left: 612px;
+    font-size: 28px;
+    line-height: 200%;
+    display: inline-block;
+    font-family: myWebFonts;
+    font-weight: 600;
+  }
+  .have-questions-were-here-to {
+    position: absolute;
+    top: 250px;
+    left: 745px;
+    line-height: 150%;
+    font-weight: 500;
+    font-size: 18px;
+    color: #92908d;
+    display: inline-block;
+    font-family: myWebFonts;
+  }
+
+  .post-script {
+    font-size: 22px;
+    margin-left: 300px;
+  }
+
+  .post-script a {
+    color: #005400;
+    text-decoration: none;
+  }
+  
+  
+
+  .ans1-div {
+    position: absolute;
+    top: 4px;
+    left: 71px;
+    line-height: 150%;
+    font-weight: 500;
+    display: inline-block;
+    width: 789px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    
+  }
+  .frame-div7 {
+    align-self: stretch;
+    position: relative;
+    border-radius: 0.2em;
+    background-color: #fafafa;
+    height: 71px;
+    flex-shrink: 0;
+    margin-bottom: 20px;
+  }
+  .frame-div5 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+  }
+  
+
+  
+  .questions-div {
+    display: flex;
+    justify-content: flex-start;
+    
+  }
+
+  .frame-div6,
+  .frame-div8 {
+    align-self: stretch;
+    box-sizing: border-box;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #e1e1e0;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    background-color: #f6f6f6;
+    border-radius: 0.2em;
+    height: 50px;
+    width: 130%;
+  }
+
+  .img1-icon,
+  .icons3 {
+    position: relative;
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+    overflow: hidden;
+    padding-left: 15px;
+
+  }
+
+.search-bar {
+  position: relative;
+    display: inline-block;
+    color: #696763;
+    font-size: 25px;
+    height: 45px;
+    background-color: #f6f6f6;
+    padding-bottom: 21px;
+  
+
+}
+
+
+  .search-img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    flex-shrink: 0;
+    overflow: hidden;
+    padding-left: 30px;
+  
+  }
+
+  .search-container {
+    align-self: stretch;
+    box-sizing: border-box;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid #e1e1e0;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    background-color: #f6f6f6;
+    border-radius: 0.2em;
+    height: 70px;
+    width: 27%;
+    top: 290px;
+    left: 600px;
+  }
+
+  
+  
+  /*.search-container {
+    align-self: stretch;
+    position: absolute;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    top: 290px;
+    left: 510px;
+  }*/
+
+  /*.search-img {
+    width: 26px;
+    height: 26px;
+  }*/
+  
+    
+  
+    
+  
+  /*.search-bar {
+    height: 20px;
+    width: 250px;
+    display: inline-block;
+    position: relative;
+  }*/
+
+  input {
+    height: 66px;
+    width: 422px;
+    background-color: #f6f6f6;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    flex: 1;
+    
+  }
+    
+
+
+input:hover {
+    border: 2px solid #ededec;
+}
+  .questions-div {
+    position: absolute;
+    top: 387px;
+    left: 320px;
+    width: 896px;
+    flex-direction: column;
+    align-items: flex-start;
+    
+  }
+  .image-2-icon1 {
+    position: absolute;
+    height: 21.43%;
+    width: 5.21%;
+    top: 10.39%;
+    right: 86.46%;
+    bottom: 68.18%;
+    left: 8.33%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  
+  
+  
+ 
+  
+ 
+  
+  

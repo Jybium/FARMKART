@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/sell_2.css">
+    <link rel="stylesheet" href="/static/footer.css">
+    <link rel="stylesheet" href="/static/nav.css">
+    <link rel="shortcut icon" href="/FARMKART IMAGES/FARMKART PICTURES/Logo.png" type="image/x-icon">
+    <title>FARMKART | sell your farm products!</title>
+    <script>
+        var loadFile = function(event){
+            var image = document.getElementById('output');
+            image.src = URL.createObjectURL(event.target.files[0]);
+        };
+    </script>
+</head>
+<body>
+    <section>
+        <nav>
+            <div class="nav-bar">
+                <div class="theLogo">
+                    <img src="/FARMKART IMAGES/FARMKART PICTURES/image 233.png" alt="farmkart-logo">
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="/templates/market.html">Marketplace</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Support</a></li>
+                    </ul>
+                </div>
+                <div class="profile">
+                    <div class="imaging">
+                        <img src="/FARMKART IMAGES/FARMKART PICTURES/abubakar-balogun-TwOSyPtnM94-unsplash (2).jpg" alt="">
+                    </div>
+                    <div class="butn">
+                        <button type="submit"><a href="/templates/newsell.html">SELL</a></button>
+                    </div>
+                    <div class="cart">
+                        <div class="no-of-items"><p></p></div>
+                        <img src="/FARMKART IMAGES/ICONS/Icons-8.png" alt="">
+                        <a href="/templates/emptycart.html">Cart</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <main>
+        <div class="main">
+            <h1>Sell Your Farm Products</h1>
+            <div class="fill">
+                <form action="">
+                    <div class="form">
+                        <div class="form1">
+                            <p><label for="category">Category</label></p>
+                            <select name="category" id="category">
+                                <option value="livestock">Livestock</option>
+                            </select>
+                        </div>
+                        <div class="form2">
+                            <p><label for="location">Location</label></p>
+                            <select name="location" id="location">
+                                <option value="select">Select your location</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="words">
+                            <p><b>Add Photo</b></p>
+                            <p>Add at least 1 pictures for this section</p>
+                            <p>The first picture is the title picture. You can add more pictures for better description. Click the frame below and upload your pictures.</p>
+                        </div>
+                        <div class="image">
+                            <div class="import"><input type="file" name="images" id="picture" accept="image/*" onchange="loadFile(event)" multiple="multiple"></div>
+                            <div class="imports"><img id="output"></div>
+                        </div>
+                        <div class="note">
+                            <p>Each Picture must not exceed 5MB.</p>
+                            <p>Supported image formats are JPG and PNG*</p>
+                        </div>
+                    </div>
+                    <div class="bt">
+                        <button type="submit" class="button"><a href="/templates/sell_2.html">Next</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="foot">
+            <div class="a1">
+               <img src="/FARMKART IMAGES/ICONS/logo (2).png" alt="Farmkart logo">
+            </div>
+            <div class="b1">
+                <div class="a">
+                    <ul>
+                     <li>ABOUT US</li>
+                     <li><a href="">About Farmkart</a></li>
+                     <li><a href="">Terms of use</a></li>
+                    </ul>
+                 </div>
+                 <div class="b">
+                     <ul>
+                         <li>RESOURCES</li>
+                         <li><a href="">Our Blog</a></li>
+                     </ul>
+                 </div>
+                 <div class="c">
+                     <ul>
+                         <li>SUPPORT</li>
+                         <li><a href="">Contact Us</a></li>
+                         <li><a href="">FAQ</a></li>
+                     </ul>
+                 </div>
+                 <div class="d">
+                     <form action="" method="post">
+                        <p><label for="subscribe">NEWSLETTER</label></p>
+                        <input type="email" name="subscribe" id="subscribe" class="input" placeholder="abeljames@outlook.com"><span><input type="button" value="SUBSCRIBE" class="btn"></span>
+                     </form>
+                 </div>
+            </div>
+        </div>
+        <hr>
+        <div class="last">
+            <div class="copy">
+                <p>&copy; 2022 All right reserved <a href="">FARMKART</a></p>
+            </div>
+            <div class="socials">
+                <span><span><a href=""><img src="/FARMKART IMAGES/ICONS/facebook 1.png" alt="facebook icon"></a></span><span><a href=""><img src="/FARMKART IMAGES/ICONS/linkedin 1.png" alt="linkedin icon"></a></span><span><a href=""><img src="/FARMKART IMAGES/ICONS/twitter.png" alt="twitter icon"></a></span><span class="mail"><a href=""><img src="/FARMKART IMAGES/ICONS/mail.png" alt="gmail icon"></a></span></span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

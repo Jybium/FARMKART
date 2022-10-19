@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    animation: whole 4s ease-in;
+}
+@keyframes whole{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+} 
+.prof img{
+    width: 70px;
+    border-radius: 35px;
+}
+.body{
+    margin: auto;
+    width: 90%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    margin: 4% 0%;
+}
+main{
+    margin: 5% 0%;
+}
+.m-content1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.form{
+    flex: 50%;
+    padding: 20px 10px;
+}
+.form input{
+    width: 100%;
+    padding: 12px;
+}
+.form input label{
+    margin-bottom: 2%;
+}
+.bttnn{
+    justify-content: center;
+    text-align: center;
+}
+.bttnn button{
+    padding: 1% 10%;
+    margin: 6% 0% 2% 0%;
+    color: #c6c5c4;
+    background-color: #005900;
+    border-radius: 5px;
+    border: 1px #005900 solid;
+}
+.bttnn button:hover{
+    background-color: #fff;
+    color: #005900;
+    border: 1px #005900 solid;
+}
+.prof{
+    display: flex;
+    width: 15%;
+    padding: 0% 10px;
+}
+p{
+    margin: auto;
+    padding-left: 0%;
+}
+.link a{
+    color: #005900;
+    text-decoration: none;
+    margin: auto;
+}
+
+
+/*this codes for the final edit profile page*/
+.password{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.form{
+    flex: 50%;
+    width: 50%;
+}
+.change{
+    margin: 3% 1% 1% 1%;
+}
+label{
+    font-weight: 900;
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a signup page for the farmkart website, only for new users or vistors">
+    <meta name="author" content="Asaolu james">
+    <title>Farmkart | sign-up here!</title>
+    <link rel="stylesheet" href="/static/sign.css">
+    <link rel="stylesheet" href="/static/footer.css">
+    <link rel="shortcut icon" href="/FARMKART IMAGES/FARMKART PICTURES/image 233.png" type="image/x-icon">
+    <link rel="stylesheet" href="/templates/style.js">
+    <style>
+        .user-details{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .input-box{
+            flex: 50%;
+            padding: 5px;
+        }
+        .top-word{
+            line-height: 25px;
+        }
+        .top-word h1{
+            font-size: 20px;
+        }
+        #loader{
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            z-index: 1;
+            width: 120px;
+            height: 120px;
+            margin: -76px 0 0 -76px;
+            border-radius: 100%;
+            border: 20px solid #f3f3f3;
+            border-top: 16px solid #005900;
+            border-bottom: 16px solid #005900;
+            -webkit-animation: spin 1s linear infinite;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0%{transform: rotate(0deg);}
+            100%{transform: rotate(360deg);}
+        }
+        #spin{
+            width: 100%;
+            height: 100vh;
+            position: absolute;
+            margin: auto;
+            position: fixed;
+            z-index: 2;
+            background-color: #f3f3f3;
+        }
+    </style>
+    <script>
+        var myVar;
+        function myFunction(){
+            myVar = setTimeout(showPage, 20000);
+        }
+        function showPage(){
+            document.getElementById("spin").style.display = "none";
+            document.getElementById("show").style.display = "block";
+        }
+    </script>
+</head>
+<body onload="myFunction()" id="show">
+    <div id="spin">
+        <div id="loader"></div>
+    </div>
+    <section>
+        <div class="top">
+            <img src="/FARMKART IMAGES/FARMKART PICTURES/image 233.png" alt="logo">
+            <div class="top-word">
+                <h1>
+                    Get Started With Farmkart!
+                </h1>
+                <p>
+                    Registration is swift and free!
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="body">
+        <div class="signup">
+            <img src="/FARMKART IMAGES/FARMKART PICTURES/bro.png" alt="signup">
+        </div>
+        <div class="content">
+            <form action="" method="post">
+                <div class="user-details">
+                    <div class="input-box">
+                        <p><label for="fname">First Name</label></p>
+                        <input type="text" name="fname" id="fname" placeholder="James" required>
+                    </div>
+                    <div class="input-box">
+                        <p><label for="lname">Last Name</label></p>
+                        <input type="text" id="lname" name="lname" placeholder="Abel" required>
+                    </div>
+                    <div class="input-box">
+                        <p><label for="email">email</label></p>
+                        <input type="email" id="email" placeholder="Johnabel@gmail.com" name="email" required>
+                    </div>
+                    <div class="input-box">
+                        <p><label for="pnumber">Phone Number</label></p>
+                        <input type="text" placeholder="+234-8043-234-443" name="phone_number" id="pnumber" required>
+                    </div>
+                    <div class="input-box">
+                        <p><label for="location">Location</label></p>
+                        <select name="location" id="location" required class="input">
+                            <option value="select" selected>Select your State</option>
+                            <option value="abia">Abia State</option>
+                            <option value="adamawa">Adamawa State</option>
+                            <option value="akwa-ibom">Akwa-ibom State</option>
+                            <option value="anambra">Anambra State</option>
+                            <option value="bauchi">Bauchi State</option>
+                            <option value="bayelsa">Bayelsa State</option>
+                            <option value="benue">Benue State</option>
+                            <option value="borno">Borno State</option>
+                            <option value="cross-river">Cross-River State</option>
+                            <option value="delta">Delta State</option>
+                            <option value="ebonyi">Ebonyi State</option>
+                            <option value="edo">Edo State</option>
+                            <option value="ekiti">Ekiti State</option>
+                            <option value="enugu">Enugu State</option>
+                            <option value="gombe">Gombe State</option>
+                            <option value="imo">Imo State</option>
+                            <option value="jigawa">Jigawa State</option>
+                            <option value="kaduna">Kaduna State</option>
+                            <option value="kano">Kano State</option>
+                            <option value="lagos">Katsina State</option>
+                            <option value="kebbi">Kebbi State</option>
+                            <option value="kogi">Kogi State</option>
+                            <option value="kwara">Kwara State</option>
+                            <option value="lagos">Lagos State</option>
+                            <option value="nasarawa">Nasarawa State</option>
+                            <option value="niger">Niger State</option>
+                            <option value="ogun">Ogun state</option>
+                            <option value="ondo">Ogun State</option>
+                            <option value="osun">Osun state</option>
+                            <option value="oyo">Oyo State</option>
+                            <option value="plateau">Plateau State</option>
+                            <option value="rivers">Rivers State</option>
+                            <option value="sokoto">Sokoto State</option>
+                                <option value="taraba">Taraba State</option>
+                            <option value="yobe">Yobe State</option>
+                            <option value="zamfara">Zamfara State</option>
+                            <option value="fct">FCT</option>    
+                        </select>
+                        <p class="mini" id="myBtn"><a > Why choose location?</a></p>
+                        <div class="modal" id="myModal">
+                            <h1>Why choose a location?</h1>
+                            <p>This will tells us where you are selling or shopping from. <br> It also means that we can:</p>
+                            <ol>
+                                <li>Provide more suitable services based on your location.</li>
+                                <li>Effectively provide data security according to the laws of Nigeria.</li>
+                            </ol>
+                            <p>Make sure you choose the right state as you proceed with your registration.</p>
+                            <button type="submit" class="close" id="close">OK</button>
+                        </div>
+                    </div>
+                    <div class="input-box">
+                        <p><label for="password">Password</label></p>
+                        <input type="password" name="password" required placeholder="**********" id="password" minlength="8" pattern="(? = .*\d)(?= .* [a-z])(?= .* [A-Z]).{8,}" title="must contain at least one number and one uppercase and lower case letter, and at least 8 or more characters">
+                        <p class="mini"><p>Minimum of 8 character long.</p></p>
+                        <div id="message">
+                            <p id="letter" class="invalid">A lowercase letter</p>
+                            <p id="capital" class="invalid"> A uppercase letter</p>
+                            <p id="number" class="invalid"> a number</p>
+                            <p id="length" class="invalid">minimum characters</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="lasty">
+                    <h6>By signing up, you agree to our <a href="/templates/Termofuse.html">Terms and Privacy policy.</a></h6>
+                    <button type="submit" value="Register" class="btnn"><a href="/templates/signin.html"></a> Register</button>
+                    <p>Already have an account on FarmKart? <a href="signin.html">Sign in</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="foot">
+            <div class="a1">
+               <img src="/FARMKART IMAGES/ICONS/logo (2).png" alt="Farmkart logo">
+            </div>
+            <div class="b1">
+                <div class="a">
+                    <ul>
+                     <li>ABOUT US</li>
+                     <li><a href="">About Farmkart</a></li>
+                     <li><a href="/templates/Termofuse.html">Terms of use</a></li>
+                    </ul>
+                 </div>
+                 <div class="b">
+                     <ul>
+                         <li>RESOURCES</li>
+                         <li><a href="">Our Blog</a></li>
+                     </ul>
+                 </div>
+                 <div class="c">
+                     <ul>
+                         <li>SUPPORT</li>
+                         <li><a href="">Contact Us</a></li>
+                         <li><a href="">FAQ</a></li>
+                     </ul>
+                 </div>
+                 <div class="d">
+                     <form action="" method="post">
+                        <p><label for="subscribe">NEWSLETTER</label></p>
+                        <input type="email" name="subscribe" id="subscribe" class="input" placeholder="abeljames@outlook.com"><span><input type="button" value="SUBSCRIBE" class="btn"></span>
+                     </form>
+                 </div>
+            </div>
+        </div>
+        <hr>
+        <div class="last">
+            <div class="copy">
+                <p>&copy; 2022 All right reserved <a href="">FARMKART</a></p>
+            </div>
+            <div class="socials">
+                <span><span><a href=""><img src="/FARMKART IMAGES/ICONS/facebook 1.png" alt="facebook icon"></a></span><span><a href=""><img src="/FARMKART IMAGES/ICONS/linkedin 1.png" alt="linkedin icon"></a></span><span><a href=""><img src="/FARMKART IMAGES/ICONS/twitter.png" alt="twitter icon"></a></span><span class="mail"><a href=""><img src="/FARMKART IMAGES/ICONS/mail.png" alt="gmail icon"></a></span></span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

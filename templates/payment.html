@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a payment page for the farmkart website">
+    <meta name="author" content="Asaolu james">
+    <title>Farmkart | Payment made easy</title>
+    <link rel="stylesheet" href="/static/footer.css">
+    <link rel="stylesheet" href="/static/nav.css">
+    <link rel="shortcut icon" href="/FARMKART IMAGES/FARMKART PICTURES/image 233.png" type="image/x-icon">
+    <script src="script.js"></script>
+    <style>
+        .pay{
+            transition: all 6s ease;
+            padding: 0;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        input[type = "radio"] {
+            accent-color: black;
+        }
+        nav img{
+            width: 20px;
+        }
+        .btn-word{
+            justify-content: center;
+            text-align: center;
+            margin-bottom: 10%;
+        }
+        .btn-word button{
+            padding: 1.5% 20%;
+            background-color: #005900;
+            border: none;
+            margin: 1% 0px 2% 0%;
+        }
+        .btn-word p{
+            line-height: 30px;
+        }
+        .btn-word a{
+            color: #005900;
+            text-decoration: none;
+        }
+        .btn-word button a{
+            color: #c6c5c4;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <nav>
+            <div class="nav-bar">
+                <div class="theLogo">
+                    <img src="/FARMKART IMAGES/FARMKART PICTURES/image 233.png" alt="farmkart-logo">
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="/templates/market.html">Marketplace</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Support</a></li>
+                    </ul>
+                </div>
+                <div class="profile">
+                    <div class="imaging">
+                        <img src="/FARMKART IMAGES/FARMKART PICTURES/abubakar-balogun-TwOSyPtnM94-unsplash (2).jpg" alt="">
+                    </div>
+                    <div class="butn">
+                        <button type="submit"><a href="/templates/newsell.html">SELL</a></button>
+                    </div>
+                    <div class="cart">
+                        <div class="no-of-items"><p></p></div>
+                        <img src="/FARMKART IMAGES/ICONS/Icons-8.png" alt="">
+                        <a href="/templates/emptycart.html">Cart</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <section>
+        <div style=" margin: auto; padding: 0; width: 85%; justify-self: center; align-items: center; margin-top: 10%;" class="pay">
+            <form>
+                <div style="display: flex; justify-content: space-between; margin-bottom: 1%;">
+                    <p>CHECKOUT</p>
+                    <div class="arrow" style="display: flex; gap: 10px; font-size: large;">
+                        <p style="color: #005900;">SEE DETAILS</p>
+                        <img style="width:20px; height: auto; margin: auto;" src="/FARMKART IMAGES/ICONS/logos_sign.png" alt="arrow">
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: space-between; height: 50px; border: 1px black solid; margin-bottom: 5%; padding: 0px 2% 0px 2%;">
+                    <div style="display: flex; justify-content: space-between; width: 100%; margin: auto;">
+                        <p>TOTAL TO PAY</p>
+                        <p># 602,000.00</p>
+                    </div>
+                </div>
+                <div>
+                    <div style="margin-bottom: 1%;"><label for="payment" style="text-align: left;">SELECT PAYMENT METHOD</label></div>
+                    <div style="height: 50px; border: 1px black solid; display: flex; justify-content: space-between; margin-bottom: 5%; padding: 0px 2% 0px 2%;">
+                        <div style="display: flex; gap: 30px; width: 100%; margin: auto;">
+                            <input type="radio" style="width: 2%;" name="SELECT PAYMENT METHOD" id="payment1"><span><p style="width: 100%;">Pay with Mastercard and Visa Debit Cards</p></span>
+                        </div>
+                        <div class="cards"  style="display: flex; justify-content: center; text-align: center; height: fit-content; width: 9%; margin-top: .5%;">   
+                            <img width="100%" height="auto" margin="auto" src="/FARMKART IMAGES/ICONS/MasterCard_visa.png" alt="mastercard">
+                        </div>
+                    </div>
+                    <div style="height: 50px; border: 1px black solid; display: flex; justify-content: space-between; margin-bottom: 5%; padding: 0px 2% 0px 2%;">
+                        <div style="display: flex; gap: 30px; width: 100%; margin: auto;">
+                            <input type="radio" style="width: 2%;" name="SELECT PAYMENT METHOD" id="payment2"><span><p style="width: 100%;">Pay with Verve Cards</p></span>
+                        </div>
+                        <div class="cards" style="display: flex; justify-content: center; text-align: center; height: fit-content; width: 9%; margin-top: .5%;">
+                            <img width="100%" height="auto" margin="auto" src="/FARMKART IMAGES/ICONS/verve 2.png" alt="Verve">
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <div class="btn-word">
+                <button type="submit"><a href="/templates/paymentreceived.html">PAY #602,000.00</a></button>
+                <p>Kindly note: Farmkart will never ask for your card details over the phone or via email.</p>
+                <p>Need help? <a href="">Contact Us</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="foot">
+            <div class="a1">
+               <img src="/FARMKART IMAGES/ICONS/logo (2).png" alt="Farmkart logo">
+            </div>
+            <div class="b1">
+                <div class="a">
+                    <ul>
+                     <li>ABOUT US</li>
+                     <li><a href="">About Farmkart</a></li>
+                     <li><a href="">Terms of use</a></li>
+                    </ul>
+                 </div>
+                 <div class="b">
+                     <ul>
+                         <li>RESOURCES</li>
+                         <li><a href="">Our Blog</a></li>
+                     </ul>
+                 </div>
+                 <div class="c">
+                     <ul>
+                         <li>SUPPORT</li>
+                         <li><a href="">Contact Us</a></li>
+                         <li><a href="">FAQ</a></li>
+                     </ul>
+                 </div>
+                 <div class="d">
+                     <form action="" method="post">
+                        <p><label for="subscribe">NEWSLETTER</label></p>
+                        <input type="email" name="subscribe" id="subscribe" class="input" placeholder="abeljames@outlook.com"><span><input type="button" value="SUBSCRIBE" class="btn"></span>
+                     </form>
+                 </div>
+            </div>
+        </div>
+        <hr>
+        <div class="last">
+            <div class="copy">
+                <p>&copy; 2022 All right reserved <a href="">FARMKART</a></p>
+            </div>
+            <div class="socials">
+                <span><span><a href=""><img src="/FARMKART IMAGES/ICONS/facebook 1.png" alt="facebook icon"></a></span><span><a href=""><img src="/FARMKART IMAGES/ICONS/linkedin 1.png" alt="linkedin icon"></a></span><span><a href=""><img src="/FARMKART IMAGES/ICONS/twitter.png" alt="twitter icon"></a></span><span class="mail"><a href=""><img src="/FARMKART IMAGES/ICONS/mail.png" alt="gmail icon"></a></span></span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

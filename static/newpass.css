@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav img{
+    width: 20%;
+}
+nav{
+    text-align: center;
+}
+body{
+    margin: auto;
+}
+.main{
+    width: 70%;
+    display: grid;
+    margin: auto;
+    justify-content: center;
+}
+.head{
+    line-height: 35px;
+    text-align: center;
+    margin: 20% 0px 5% 0px;
+}
+.fm input{
+    width: 100%;
+    padding: 10px;
+}
+.fm{
+    margin-bottom: 10%;
+    width: 100%;
+}
+.fm p{
+    text-align: left;
+}
+.btn{
+    background: #005900;
+    color: #c6c5c4;
+    border: none;
+    margin-bottom: 4%;
+    outline: none;
+}
+.fm a {
+    text-decoration: none;
+    color: #005900;
+    margin-bottom: 10%;
+}
+.fm {
+    text-align: center;
+}

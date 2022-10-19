@@ -1,0 +1,66 @@
+/*code for verification.html*/
+body{
+    box-sizing: border-box;
+    text-align: center;
+}
+.checkbox{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    gap: 2%;
+}
+.box input{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border-width: 1px;
+}
+.box input::after{
+    outline: none;
+}
+.down button{
+    padding: 8px 8% 8px 8%;
+    color: #CECECE;
+    background-color: #005900;
+    border: none;
+    margin-bottom: 1%;
+}
+.down a{
+    color: #005900;
+    text-decoration: none;
+}
+.top{
+    margin: 7% 0px 2% 0px;
+    line-height: 40px;
+}
+
+
+
+
+
+
+.form input{
+    height: 37px;
+    width: 130%;
+}
+.form{
+    margin: 0px 30% 0px 30%;
+}
+.fm p {
+    text-align: left;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.btn{
+    margin-top: 10%;
+    color: #CECECE;
+    background-color: #005900;
+    border: none;
+}
+.foot{
+    margin-top: 15%;
+}
+
+
+/*code for paymentreceived.html*/
+
