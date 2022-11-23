@@ -1,85 +1,87 @@
 @font-face {
-    font-family: hauora;
-    src: url('/FONTS/Hauora-Light.otf');
+  font-family: hauora;
+  src: url("/FONTS/Hauora-Light.otf");
 }
-*{
-    margin: 0;
-    font-family: hauora;
-    font-size: 14px;
+* {
+  margin: 0;
+  font-family: hauora;
+  font-size: 14px;
 }
-.foot{
-    display: flex;
-    justify-content: space-between;
-    gap: 4%;
-    padding: 2% 4% 5% 4%;
+.foot {
+  display: flex;
+  justify-content: space-between;
+  gap: 4%;
+  padding: 2% 4% 5% 4%;
 }
-.a1{
-    width: 15%;
+.a1 {
+  width: 15%;
 }
-.b1{
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
-    gap: 0%;
-    margin: auto;
+.b1 {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  gap: 0%;
+  margin: auto;
 }
-.foot ul{
-    list-style: none;
+.foot ul {
+  list-style: none;
 }
-.foot a{
-    text-decoration: none;
-    color: black;
+.foot a {
+  text-decoration: none;
+  color: black;
 }
-.foot li{
-    margin-bottom: 10px;
-    font-weight: 900;
+.foot li {
+  margin-bottom: 10px;
+  font-weight: 900;
 }
-.last{
-    display: flex;
-    justify-content: space-between;
-    padding: 3% 4% 1% 4%;
+.last {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 4% 1% 4%;
 }
-footer>hr{
-    color: black;
-    margin: 0% 4%;
+footer > hr {
+  color: black;
+  margin: 0% 4%;
 }
-.last img{
-    width: 35px;
+.last img {
+  width: 35px;
 }
-.socials span{
-    padding-left: 10px;
+.socials span {
+  padding-left: 10px;
 }
-.mail img{
-    width: 32px;
+.mail img {
+  width: 32px;
 }
-.d .input{
-    padding: 13px;
-    width: 60%;
-    outline: none;
+.d .input {
+  padding: 13px;
+  width: 60%;
+  outline: none;
 }
-.d .btn{
-    padding: 15px 20px;   
-    background: #005900;
-    color: #c6c5c4;
-    border-radius: 5%;
-    margin-left: 2px;
-    border: none;
+.d .btn {
+  padding: 15px 20px;
+  background: #005900;
+  color: #c6c5c4;
+  border-radius: 5%;
+  margin-left: 2px;
+  border: none;
 }
-.d{
-    width: 40%;
-    padding-left: 5%;
+.d {
+  width: 40%;
+  padding-left: 5%;
 }
-.last a{
-    text-decoration: none;
-    color: #005900;
+.last a {
+  text-decoration: none;
+  color: #005900;
 }
-footer{
-    background-color: #c6c5c4;
-    width: 100%;
+footer {
+  background-color: #c6c5c4;
+  width: 100%;
 }
-label{
-    font-weight: 900;
+label {
+  font-weight: 900;
 }
-input, select, .input select{
-    padding-right: 15px;
+input,
+select,
+.input select {
+  padding-right: 15px;
 }

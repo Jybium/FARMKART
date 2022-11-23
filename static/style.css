@@ -1,21 +1,33 @@
 @font-face {
-    font-family: Haoura;
-    src: url(/fonts/web/Hauora-Regular.woff);
-    /* font-weight: bold; */
-  }
-*{
-    font-family: Haoura;
+  font-family: Haoura;
+  src: url(/fonts/web/Hauora-Regular.woff);
+  /* font-weight: bold; */
 }
-footer{
-    list-style: none;
-    background-color: #E6EEE6;
+* {
+  font-family: Haoura;
 }
-#btn2{
-    background-color: #005400; 
-    border: none;
-    color:white; 
-    padding: 10px 70px;
+footer {
+  list-style: none;
+  background-color: #e6eee6;
+}
+#btn2 {
+  background-color: #005400;
+  border: none;
+  color: white;
+  padding: 10px 70px;
 }
 /* #exampleFormControlInput1{
     margin: 0px 50px;
 } */
+
+.show {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}

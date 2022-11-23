@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="/static/sign.css">
     <link rel="stylesheet" href="/static/footer.css">
     <link rel="shortcut icon" href="/FARMKART IMAGES/FARMKART PICTURES/image 233.png" type="image/x-icon">
-    <link rel="stylesheet" href="/templates/style.js">
+    <link rel="shortcut icon" href="/FARMKART IMAGES/FARMKART PICTURES/Logo.png" type="image/x-icon">
     <style>
         .user-details{
             display: flex;
@@ -58,7 +58,7 @@
     <script>
         var myVar;
         function myFunction(){
-            myVar = setTimeout(showPage, 20000);
+            myVar = setTimeout(showPage, 2000);
         }
         function showPage(){
             document.getElementById("spin").style.display = "none";
@@ -151,14 +151,17 @@
                         <p class="mini" id="myBtn"><a > Why choose location?</a></p>
                         <div class="modal" id="myModal">
                             <h1>Why choose a location?</h1>
-                            <p>This will tells us where you are selling or shopping from. <br> It also means that we can:</p>
+                            <div class="text">
+                                <p>This will tells us where you are selling or shopping from. <br> It also means that we can:</p>
                             <ol>
                                 <li>Provide more suitable services based on your location.</li>
                                 <li>Effectively provide data security according to the laws of Nigeria.</li>
                             </ol>
                             <p>Make sure you choose the right state as you proceed with your registration.</p>
-                            <button type="submit" class="close" id="close">OK</button>
+                            </div>
+                            <button class="close">OK</button>
                         </div>
+                        <div class="over hide"></div>
                     </div>
                     <div class="input-box">
                         <p><label for="password">Password</label></p>
@@ -174,12 +177,13 @@
                 </div>
                 <div class="lasty">
                     <h6>By signing up, you agree to our <a href="/templates/Termofuse.html">Terms and Privacy policy.</a></h6>
-                    <button type="submit" value="Register" class="btnn"><a href="/templates/signin.html"></a> Register</button>
-                    <p>Already have an account on FarmKart? <a href="signin.html">Sign in</a></p>
+                    <button type="submit" class="btnn"><a href="/templates/signin.html"></a> Register</button>
+                    <p>Already have an account on FarmKart? <a href="/templates/signin.html">Sign in</a></p>
                 </div>
             </form>
         </div>
     </section>
+
     <footer>
         <div class="foot">
             <div class="a1">
@@ -224,5 +228,7 @@
             </div>
         </div>
     </footer>
+    <!-- This is the Javascript link for the page -->
+    <script src="/templates/style.js"></script>
 </body>
 </html>

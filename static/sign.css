@@ -1,200 +1,235 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
-body{
-    margin: 0;
-    transition: all 60s ease-in;
+body {
+  margin: 0;
+  transition: all 60s ease-in;
 }
-.top{
-    text-align: center;
+.top {
+  text-align: center;
 }
-.top img{
-    width: 20%;
+.top img {
+  width: 20%;
 }
-.body{
-    display: grid;
-    text-align: center;
-    grid-template-areas: 
-    'a b';
-    margin: 2% 5% 10% 5%;
-    width: auto;
+.body {
+  display: grid;
+  text-align: center;
+  grid-template-areas: "a b";
+  margin: 2% 5% 10% 5%;
+  width: auto;
 }
-#show{
-    animation: animate 10s ease-out;
+#show {
+  animation: animate 10s ease-out;
 }
 @keyframes animate {
-    from{bottom: 100%; opacity: 0;}
-    to{bottom: 0%; opacity: 1;}
-}
-.signup img{
-    width: 100%;
-    margin-left: 0%;
-    grid-area: b;
-}
-.signin img{
-    width: 80%;
-    margin-top: 5%;
-    grid-area: b;
-}
-.content{
-    width: 90%;
-    display: flex;
-    margin: 3% 0% 5% 0%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    text-align: left;
-    grid-area: a;
-} 
-.content2{
-    width: 100%;
-    display: flex;
-    margin: 15% 0% 5% 0%;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    text-align: left;
-    grid-area: a;
-} 
-.content2 form .user-details{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 15px 0 12px 0;
+  from {
+    bottom: 100%;
+    opacity: 0;
   }
-.content form .user-details{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 15px 0 12px 0;
+  to {
+    bottom: 0%;
+    opacity: 1;
   }
-  form .user-details .input-box{
-    margin-bottom: 5%;
-    width: calc(100% / 2 - 5px);
-  }
-  form i, .icon{
-    position: absolute;
-    top: 40%;
-    width: 6%;
-    right: 10px;
-    padding: 5px;
 }
-  form .user-details .input-box2{
-    margin-bottom: 7%;
-    position: relative;
-    width: calc(100% / 1 - 5px);
-  }
-  .user-details .input-box2 input, select{
-    height: 50px;
-    width: 100%;
-    outline: none;
-    
-    padding-left: 15px;
+.signup img {
+  width: 100%;
+  margin-left: 0%;
+  grid-area: b;
+}
+.signin img {
+  width: 80%;
+  margin-top: 5%;
+  grid-area: b;
+}
+.content {
+  width: 90%;
+  display: flex;
+  margin: 3% 0% 5% 0%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
+  grid-area: a;
+}
+.content2 {
+  width: 100%;
+  display: flex;
+  margin: 15% 0% 5% 0%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: left;
+  grid-area: a;
+}
+.content2 form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 15px 0 12px 0;
+}
+.content form .user-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 15px 0 12px 0;
+}
+form .user-details .input-box {
+  margin-bottom: 5%;
+  width: calc(100% / 2 - 5px);
+}
+form i,
+.icon {
+  position: absolute;
+  top: 40%;
+  width: 6%;
+  right: 10px;
+  padding: 5px;
+}
+form .user-details .input-box2 {
+  margin-bottom: 7%;
+  position: relative;
+  width: calc(100% / 1 - 5px);
+}
+.user-details .input-box2 input,
+select {
+  height: 40px;
+  width: 100%;
+  outline: none;
+
+  padding-left: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
   border-bottom-width: 2px;
   transition: all 0.3s ease;
 }
-  form .input-box span.details{
-    display: block;
-    text-align: left;
-    font-weight: 500;
-    margin-bottom: 5px;
-  }
-  .user-details .input-box input, select{
-    height: 50px;
-    width: 100%;
-    outline: none;
-    font-size: 16px;
-    padding-left: 15px;
+form .input-box span.details {
+  display: block;
+  text-align: left;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.user-details .input-box input,
+select {
+  height: 43px;
+  width: 100%;
+  outline: none;
+  font-size: 16px;
+  padding-left: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
   border-bottom-width: 2px;
   transition: all 0.3s ease;
 }
 .user-details .input-box input:focus,
-.user-details .input-box input:valid{
-  border-color: #003B00;
+.user-details .input-box input:valid {
+  border-color: #003b00;
 }
-.lasty h6{
-    text-align: left;
-    margin-bottom: 10%;
-    margin-top: 0%;
+.lasty h6 {
+  text-align: left;
+  margin-bottom: 10%;
+  margin-top: 0%;
 }
-.lasty{
-    margin-top: 1%;
+.lasty {
+  margin-top: 1%;
 }
-.lasty p{
-    text-align: center;
-    margin-top: 1%;
+.lasty p {
+  text-align: center;
+  margin-top: 1%;
 }
-.btnn{
-    width: 90%;
-    padding: 2% 50% 2% 50%;
-    border-radius: 5px;
-    color: #E8E8E7;
-    outline: none;
-    border: 0;
-    margin-top: -5%;
-    background: #005400;
+.btnn {
+  width: 90%;
+  padding: 2% 50% 2% 50%;
+  border-radius: 5px;
+  color: #e8e8e7;
+  outline: none;
+  border: 0;
+  margin-top: -5%;
+  background: #005400;
 }
 
-a{
-    text-decoration: none;
-    color: #008700;
+a {
+  text-decoration: none;
+  color: #008700;
 }
-a h6{
-   text-align: right;
-   margin-top: -8%;
+a h6 {
+  text-align: right;
+  margin-top: -8%;
 }
-.last1{
-    text-align: center;
+.last1 {
+  text-align: center;
 }
 .mini {
-    margin-top: 3%;
+  margin-top: 3%;
 }
-.min{
-    margin-top: -3%;
+.min {
+  margin-top: -3%;
 }
-.copy{
-    margin: 2% 0% -4% 0%;
+.copy {
+  margin: 2% 0% -4% 0%;
 }
 
-.popup{
-    position: absolute;
-    text-align: center;
-    justify-content: center;
-    visibility: hidden;
-    width: 50%;
-    transform: translate(-50%, -50% scale(0.1));
-    top: 0%;
-    left: 50%;
+.popup {
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  width: 50%;
+  transform: translate(-50%, -50% scale(0.1));
+  top: 0%;
+  left: 50%;
 }
-.open-popup{
-    visibility: visible;
-    top: visible;
-    transform: translate(-50%, -50% scale(1));
+.open-popup {
+  visibility: visible;
+  top: visible;
+  transform: translate(-50%, -50% scale(1));
 }
-.modal{
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    overflow: auto;
+.modal {
+  position: fixed;
+  text-align: center;
+  justify-content: center;
+  display: block;
+  width: 30%;
+  margin: auto;
+  transform: translate(-50%, -50% scale(0.1));
+  top: 30%;
+  z-index: 2;
+  right: 30%;
+  border-radius: 5%;
+  transition: all 4s ease-in;
+  background-color: greenyellow;
+  padding: 20px;
 }
-#message{
-    display: none;
-    position: relative;
-    padding: 20px;
+.modal ol,
+.modal p {
+  text-align: left;
 }
-.valid{
-    color: green;
+.text {
+  margin: 7% 0%;
 }
-.invalid{
-    color: red;
+.close {
+  padding: 10px 100px;
+  border-radius: 10px;
+  border: none;
+  color: #ccc;
+  background-color: #005400;
 }
-.invalid:before{
-    position: relative;
-    left: -35px;
-    content: "&#10006;";
+#myModal,
+.hide {
+  display: none;
+}
+
+#message {
+  display: none;
+  position: relative;
+  padding: 20px;
+}
+.valid {
+  color: green;
+}
+.invalid {
+  color: red;
+}
+.invalid:before {
+  position: relative;
+  left: -35px;
+  content: "&#10006;";
 }

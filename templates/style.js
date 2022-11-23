@@ -1,30 +1,29 @@
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("myCtn");
-var span = document.getElementById("close")
+// This is the modal for the signup modal box
+document.querySelector(".mini").addEventListener("click", function () {
+  document.querySelector("#myModal").style.display = "block";
+  document.querySelector(".over").style.display = "block";
+});
+document.querySelector(".close").addEventListener("click", function () {
+  document.querySelector("#myModal").style.display = "none";
+  document.querySelector(".over").style.display = "none";
+});
 
-btn.onclick = function(){
-    modal.style.display = "block";
-}
+document.addEventListener("keydown", function (e) {
+  document.querySelector("#myModal").style.display = "none";
+  document.querySelector(".over").style.display = "none";
+});
 
-close.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event){
-    if (event.target == modal) {
-        modal.style.display = "none";
+// This is the script for the landing page
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    } else {
+      entry.target.classList.remove("show");
     }
-}
+  });
+});
 
+const hiddenElements = document.querySelectorAll(".hidden");
 
-
-
-
-var myInput = document.getElementById("password");
-var letter = document.getElementById("letter");
-var capital = document.getElementById("capital");
-var number = document.getElementById("number");
-var length = document.getElementById("length");
-
-myInput.onfocus = function(){
-    document.getElementById("message").style.display = "block";
-}
+hiddenElements.forEach((el) => observer.observe(el));
