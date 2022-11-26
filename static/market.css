@@ -53,9 +53,13 @@
 .bt{
     height: 40px;
     width: 100%;
+    margin: auto;
+    display: flex;
+    gap: 2px;
     padding: 0px 20% 0px 20%;
     background-color: #005900;
     color: #C6C5C4;
+    align-items: center;
     outline: none;
     border: none;
 }
