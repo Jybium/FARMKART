@@ -89,3 +89,15 @@ footer{
     filter: blur(0);
     transform: translateX(0);
   }
+  .containers > div:nth-child(2){
+    transition-delay: 3s;
+  }
+  .containers > div:nth-child(3){
+    transition-delay: 6s;
+  }
+  .containers > div:nth-child(4){
+    transition-delay: 9s;
+  }
+  .containers > div:nth-child(5){
+    transition-delay: 12s;
+  }
