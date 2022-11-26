@@ -6,6 +6,10 @@
 *{
     font-family: Haoura;
 }
+a{
+    text-decoration: none;
+    color: #c6c5c4;
+}
 h1{
     color: #005400;
     font-weight: 800 !important;
