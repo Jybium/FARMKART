@@ -16,6 +16,7 @@
 // This is the script for the landing page
 const observer = new IntersectionObserver((entries) => {
   entries.forEach((entry) => {
+    console.log(entry);
     if (entry.isIntersecting) {
       entry.target.classList.add("show");
     } else {
